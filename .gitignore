@@ -36,3 +36,10 @@ list_keys.txt
 list_tmp.txt
 options.txt
 sift.txt
+/vc++/Debug/
+*.vcxproj.filters
+*.vcxproj.user
+/lib/*/Debug/
+*.VC.db
+*.VC.VC.opendb
+/vc++/.vs/Bundler/v14/.suo
