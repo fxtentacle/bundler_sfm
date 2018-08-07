@@ -28,6 +28,7 @@
 #include <ext/hash_set>
 #include <ext/hash_map>
 #else
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
 #include <hash_set>
 #include <hash_map>
 #endif

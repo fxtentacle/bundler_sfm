@@ -24,11 +24,8 @@
 #ifndef WIN32
 #include <map>
 #else
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
 #include <hash_map>
-#endif
-
-#ifdef WIN32
-#define isnan _isnan
 #endif
 
 #include "defines.h"

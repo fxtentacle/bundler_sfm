@@ -46,6 +46,7 @@
 #ifndef WIN32
 #include <ext/hash_map>
 #else
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
 #include <hash_map>
 #endif
 
